@@ -47,9 +47,4 @@ Complete this function as an interface to your new/improved decision tree classi
 and invoke the methods/functions defined in ``classification.py`` and ``improvement.py``.
 
 
-### Instructions
-
-< Insert your own instructions here >
-
-
 
