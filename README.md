@@ -27,24 +27,23 @@ purely to report the results of evaluation. Do not use this to optimise your
 classifier (use ``validation.txt`` for this instead). 
 
 
-### Codes
+### Main Modules
 
 - ``classification.py``
 
-	* Contains the skeleton code for the ``DecisionTreeClassifier`` class. Your task 
-is to implement the ``train()``, ``predict()`` and ``prune()`` methods.
+	* Contains the code for the ``DecisionTreeClassifier`` class. Our task 
+was to implement the ``train()``, ``predict()`` and ``prune()`` methods.
 
 
 - ``improvement.py``
 
-	* Contains the skeleton code for the ``train_and_predict()`` function (Task 4.2).
-Complete this function as an interface to your new/improved decision tree classifier.
+	* Contains the code for the ``train_and_predict()`` function (Task 4.2).
+This function acts as an interface to our new/improved decision tree classifier. 
+We have implemented a random forest with random features selection and random data 
+sampling as improvements. Additionally we also tried out post and pre pruning of the
+decision tree.
 
 
-- ``example_main.py``
-
-	* Contains an example of how the evaluation script on LabTS might use the classes
-and invoke the methods/functions defined in ``classification.py`` and ``improvement.py``.
 
 
 
